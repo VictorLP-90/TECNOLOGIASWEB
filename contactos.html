@@ -3,16 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Contactos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('IMG/img01.jpg');
+            background-size: cover;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Contacto</h1>
+        <center><img src="IMG/logo.png" alt="logo"></center>
+        <center><h1>Impacto de las Tecnologías Web en la Sociedad y los Negocios</h1></center>
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="paginados.html">Acerca de</a></li>
-                <li><a href="paginatres.html">Servicios</a></li>
+                <li><a href="paginados.html">Ventajas</a></li>
+                <li><a href="paginatres.html">Desventajas</a></li>
                 <li><a href="contactos.html">Contactos</a></li>
             </ul>
         </nav>
@@ -20,7 +28,11 @@
     <section>
         <article>
             <h2>Formulario de Contacto</h2>
-            <form action="send_form.php" method="post">
+            <p>
+                En caso de tener alguna sugerencia o quieras aportar informacion al contnido de esta pagina web, llena el siguiente formilario de contacto y nos pondremos en comunicacion contigo.
+                <br><br>
+            </p>
+            <form action="enviar_formulario.php" method="post">
                 <label for="name">Nombre:</label>
                 <input type="text" id="name" name="name" required><br>
                 <label for="email">Correo Electrónico:</label>
@@ -33,10 +45,13 @@
     </section>
     <aside>
         <h2>Dirección</h2>
-        <p>Calle Falsa 123, Ciudad, País</p>
+        <p>Quito - Ecuador</p>
     </aside>
-    <footer>
-        <p>&copy; 2024 Nuestro Sitio Web. Todos los derechos reservados.</p>
-    </footer>
+    <BR> <BR> <BR> <BR>
+        <center>
+            <footer>
+                <p>&copy; Diseñado por Víctor Ludeña - Todos los derechos reservados.</p>
+            </footer>
+        </center>
 </body>
 </html>
